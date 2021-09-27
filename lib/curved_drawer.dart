@@ -70,7 +70,7 @@ class _CurvedDrawerState extends State<CurvedDrawer>
       return DrawerNavItem(
         icon: item.icon,
         label: item.label,
-        color: widget.labelColor,
+        color: Colors.white,
         background: widget.buttonBackgroundColor,
         size: widget.width / 3,
       );
